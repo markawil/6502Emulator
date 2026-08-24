@@ -7,6 +7,7 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 
 add_library(emulator
         src/emulator.cpp
+        src/instructions.hpp
 )
 
 target_include_directories(emulator PUBLIC
